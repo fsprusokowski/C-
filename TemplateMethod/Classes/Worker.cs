@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace TemplateMethod.Classes
 {
@@ -24,8 +20,7 @@ namespace TemplateMethod.Classes
         {
             return "Clock out";
         }
-
-
+        
         public abstract string DoWork();
     }
 }
